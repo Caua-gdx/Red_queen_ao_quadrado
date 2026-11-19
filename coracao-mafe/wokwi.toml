@@ -1,0 +1,6 @@
+# Diz ao Wokwi onde esta o firmware que o PlatformIO compilou.
+# Compile o projeto antes de iniciar a simulacao.
+[wokwi]
+version = 1
+firmware = '.pio/build/esp32dev/firmware.bin'
+elf = '.pio/build/esp32dev/firmware.elf'
